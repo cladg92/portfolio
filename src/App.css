@@ -7,6 +7,18 @@
   box-sizing: border-box; /* setting the default width of all elements to include the padding and the border */
 }
 
+.header {
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.page-footer {
+  margin-top: 80px;
+}
+
 /*.App-logo {
   height: 40vmin;
   pointer-events: none;
