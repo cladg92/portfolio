@@ -1,8 +1,13 @@
 .App {
   text-align: center;
+  background-color: #f79669;
 }
 
-.App-logo {
+* {
+  box-sizing: border-box; /* setting the default width of all elements to include the padding and the border */
+}
+
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -36,3 +41,4 @@
     transform: rotate(360deg);
   }
 }
+*/
