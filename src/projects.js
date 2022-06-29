@@ -14,7 +14,7 @@ const projects = [
       "https://picsum.photos/400",
     ],
     pic: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex.jpg",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex1.jpg",
     ],
   },
   {
@@ -30,7 +30,7 @@ const projects = [
       "https://picsum.photos/400",
     ],
     pic: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet.jpg",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet1.jpg",
     ],
   },
   {
@@ -46,7 +46,7 @@ const projects = [
       "https://picsum.photos/400",
     ],
     pic: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/chat.jpg",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/chat1.jpg",
     ],
   },
   {
@@ -62,7 +62,7 @@ const projects = [
       "https://picsum.photos/400",
     ],
     pic: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/api.jpg",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/api1.jpg",
     ],
   },
   {
@@ -78,7 +78,7 @@ const projects = [
       "https://picsum.photos/400",
     ],
     pic: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlix.jpg",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlix1.jpg",
     ],
   },
   {
@@ -94,7 +94,7 @@ const projects = [
       "https://picsum.photos/400",
     ],
     pic: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/angular.jpg",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/angular1.jpg",
     ],
   },
 ];
