@@ -69,9 +69,11 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/myFlix-client"],
     Live_Site: ["https://myflixapp92.netlify.app/"],
     img: [
-      "https://picsum.photos/400",
-      "https://picsum.photos/400",
-      "https://picsum.photos/400",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/myFlix1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/myFlix2.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/myFlix3.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/myFlix4.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/myFlix5.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlix1.jpg",
