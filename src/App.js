@@ -9,7 +9,7 @@ import Footer from "./components/footer/footer";
 import AboutView from "./components/about-view/about-view";
 import ContactView from "./components/contact-view/contact-view";
 import WorkView from "./components/work-view/work-view";
-import MeetView from "./components/meet-view/meet-view";
+import { projects } from "./projects";
 
 function App() {
   return (
@@ -31,12 +31,7 @@ function App() {
           <Route
             exact
             path="/work"
-            element={<WorkView className="element" />}
-          />
-          <Route
-            exact
-            path="/meet-app"
-            element={<MeetView className="element" />}
+            element={<WorkView className="element" projects={projects} />}
           />
         </Routes>
         <Footer className="footer" />

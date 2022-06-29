@@ -2,6 +2,10 @@
   max-width: 1100px;
 }
 
+li {
+  list-style: none;
+}
+
 .grid__item {
   position: relative;
   padding: 20px;
@@ -17,6 +21,7 @@
 .project-link:hover .project-image {
   filter: brightness(0.2);
   box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+  cursor: pointer;
 }
 
 .grid__item h2 {
