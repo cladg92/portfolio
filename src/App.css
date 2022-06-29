@@ -25,11 +25,8 @@ p {
 
 #home,
 #about,
-#work {
-  padding-top: 100px;
-  height: 100vh;
-}
+#work,
 #contact {
   padding-top: 100px;
-  height: 80vh;
+  height: max-content;
 }
