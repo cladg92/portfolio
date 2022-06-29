@@ -6,6 +6,10 @@ li {
   list-style: none;
 }
 
+.WorkView {
+  padding: 0;
+}
+
 .grid__item {
   position: relative;
   padding: 20px;
@@ -16,6 +20,7 @@ li {
   border-radius: 5px;
   box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
   transition: filter 0.3s;
+  overflow: hidden;
 }
 
 .project-link:hover .project-image {

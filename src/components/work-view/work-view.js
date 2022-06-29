@@ -12,9 +12,9 @@ function WorkView(props) {
     <Container className="work">
       <h1>Work</h1>
       <ul className="WorkView">
-        <Row>
+        <Row sm={1} md={2} lg={3}>
           {projects.map((project) => (
-            <Col key={project.id} sm={12} md={6} lg={4}>
+            <Col key={project.id}>
               <li>
                 <ProjectView className="project" project={project} />
               </li>

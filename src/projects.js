@@ -13,7 +13,9 @@ const projects = [
       "https://picsum.photos/400",
       "https://picsum.photos/400",
     ],
-    pic: ["https://picsum.photos/300/200"],
+    pic: [
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet.jpg",
+    ],
   },
   {
     id: "2",
@@ -27,7 +29,9 @@ const projects = [
       "https://picsum.photos/400",
       "https://picsum.photos/400",
     ],
-    pic: [""],
+    pic: [
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet.jpg",
+    ],
   },
   {
     id: "3",
@@ -41,7 +45,9 @@ const projects = [
       "https://picsum.photos/400",
       "https://picsum.photos/400",
     ],
-    pic: ["https://picsum.photos/300/200"],
+    pic: [
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet.jpg",
+    ],
   },
   {
     id: "4",
@@ -55,7 +61,9 @@ const projects = [
       "https://picsum.photos/400",
       "https://picsum.photos/400",
     ],
-    pic: ["https://picsum.photos/300/200"],
+    pic: [
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet.jpg",
+    ],
   },
   {
     id: "5",
@@ -69,7 +77,9 @@ const projects = [
       "https://picsum.photos/400",
       "https://picsum.photos/400",
     ],
-    pic: ["https://picsum.photos/300/200"],
+    pic: [
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet.jpg",
+    ],
   },
   {
     id: "6",
@@ -83,7 +93,9 @@ const projects = [
       "https://picsum.photos/400",
       "https://picsum.photos/400",
     ],
-    pic: ["https://picsum.photos/300/200"],
+    pic: [
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet.jpg",
+    ],
   },
 ];
 
