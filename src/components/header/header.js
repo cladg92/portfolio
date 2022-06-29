@@ -12,14 +12,23 @@ function Header() {
       sticky="top"
     >
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Nav className="me-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/about">About me</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
-          <Nav.Link href="/work">Work</Nav.Link>
-        </Nav>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <a className="menu-item" href="#home">
+              Home
+            </a>
+            <a className="menu-item" href="#about">
+              About
+            </a>
+            <a className="menu-item" href="#work">
+              Work
+            </a>
+            <a className="menu-item" href="#contact">
+              Contact
+            </a>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

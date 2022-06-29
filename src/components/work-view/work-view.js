@@ -9,9 +9,9 @@ function WorkView(props) {
   const { projects } = props;
 
   return (
-    <Container className="work">
-      <h1>Work</h1>
+    <Container className="work" id="work">
       <ul className="WorkView">
+        <h1>Work</h1>
         <Row sm={1} md={2} lg={3}>
           {projects.map((project) => (
             <Col key={project.id}>

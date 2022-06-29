@@ -1,0 +1,15 @@
+.menu-item {
+  text-decoration: none;
+  color: white;
+  border-radius: 0.5rem;
+  border: 0.125rem solid transparent;
+  padding: 0.5em 0.2em;
+  width: 100%;
+  text-align: center;
+  transition-duration: 0.3s;
+}
+
+.menu-item:hover {
+  background: rgb(129, 110, 110);
+  color: white;
+}

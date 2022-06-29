@@ -4,23 +4,17 @@ import cv_fotocropped2 from "./cv_fotocropped2.png";
 
 function HomeView() {
   return (
-    <div className="profile">
+    <div className="profile" id="home">
       <img
         src={cv_fotocropped2}
         alt="Clara Di Gregorio portrait"
         className="profile__portrait"
       />
       <div className="welcome">
-        <h1 id="hello">Hello world!</h1>
+        <h1 id="hello">Hello, I'm Clara</h1>
         <p className="profile__paragraph">
-          My name is Clara Di Gregorio. I am a <span>web</span> developer from
-          Italy.
+          I am a web developer with a background in environmental biology.
         </p>
-        <div id="home_link">
-          <a href="" target="_blank">
-            Check out some of my code
-          </a>
-        </div>
       </div>
     </div>
   );

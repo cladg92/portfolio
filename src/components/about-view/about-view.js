@@ -1,49 +1,46 @@
 import React from "react";
 import "./about-view.css";
 
+import { Row, Col, Container, Button } from "react-bootstrap";
+
 function AboutView() {
   return (
-    <div class="profile">
-      <h1 id="about">About me</h1>
-      <p class="profile__about">
-        I come from Italy and I have a background in Environmental Biology
-        research and data analysis.
-      </p>
-      <p class="profile__about">
-        I enjoy hiking, cooking, travelling and learning new languages,
-        including programming languages of course!
-      </p>
-      <table class="profile__about">
-        <thead>
-          <tr>
-            <th>Skills</th>
-            <th>Years of Experience</th>
-            <th>Level of Expertise</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>R</td>
-            <td>3</td>
-            <td>Advanced</td>
-          </tr>
-          <tr>
-            <td>QGIS</td>
-            <td>2</td>
-            <td>Intermediate</td>
-          </tr>
-          <tr>
-            <td>MS Office</td>
-            <td>3</td>
-            <td>Advanced</td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="button-parent">
-        <a href="#" class="button" download>
-          Check my Linkedin
-        </a>
-      </div>
+    <div id="about">
+      <h1>About me</h1>
+      <Container className="about">
+        <Row>
+          <Col>
+            <p className="profile__about">
+              As a biologist-turned-web developer, I’ve always been passionate
+              about learning new things, searching for logical explanations
+              behind patterns, and finding practical solutions. Programming was
+              a surprising discovery for me when, as a researcher-to-be, I found
+              myself spending most of my time behind a computer screen,
+              compiling and cleaning databases and performing analyses.
+            </p>
+          </Col>
+          <Col>
+            <p className="profile__about">
+              My background in biology has taught me valuable skills such as
+              analytical thinking and problem-solving skills, as well as
+              interpersonal and work-management skills. My curiosity and
+              fascination with programming languages and their potential to
+              tackle problems and build solutions has eventually led me to my
+              current path.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+      <Button
+        className="resume-button"
+        variant="outline-dark"
+        size="lg"
+        href="#"
+        download
+      >
+        <i class="fas fa-download fa-xl"></i>
+        Download my resume
+      </Button>
     </div>
   );
 }
