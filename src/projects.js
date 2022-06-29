@@ -7,9 +7,8 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/Pokedex_app"],
     Live_Site: ["https://cladg92.github.io/Pokedex_app/"],
     img: [
-      "https://picsum.photos/400",
-      "https://picsum.photos/400",
-      "https://picsum.photos/400",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex_screen/pokedex1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex_screen/pokedex2.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex1.jpg",
@@ -38,9 +37,9 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/Pokedex_app"],
     Live_Site: ["https://cladg92.github.io/Pokedex_app/"],
     img: [
-      "https://picsum.photos/400",
-      "https://picsum.photos/400",
-      "https://picsum.photos/400",
+      "https://picsum.photos/500",
+      "https://picsum.photos/500",
+      "https://picsum.photos/500",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/chat1.jpg",
@@ -51,8 +50,8 @@ const projects = [
     Title: "myFlix API",
     Description:
       "Web application built with HTML, CSS and JavaScript. The app loads data from an external API and displays a list of items (Pokemons) and their details on demand.",
-    Github_Repo: ["https://github.com/cladg92/Pokedex_app"],
-    Live_Site: ["https://cladg92.github.io/Pokedex_app/"],
+    Github_Repo: ["https://github.com/cladg92/movie_api"],
+    Live_Site: ["https://myflixapi92.herokuapp.com/documentation/#/"],
     img: [
       "https://picsum.photos/400",
       "https://picsum.photos/400",
@@ -67,8 +66,8 @@ const projects = [
     Title: "myFlix App - React",
     Description:
       "Web application built with HTML, CSS and JavaScript. The app loads data from an external API and displays a list of items (Pokemons) and their details on demand.",
-    Github_Repo: ["https://github.com/cladg92/Pokedex_app"],
-    Live_Site: ["https://cladg92.github.io/Pokedex_app/"],
+    Github_Repo: ["https://github.com/cladg92/myFlix-client"],
+    Live_Site: ["https://myflixapp92.netlify.app/"],
     img: [
       "https://picsum.photos/400",
       "https://picsum.photos/400",
