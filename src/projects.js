@@ -14,7 +14,7 @@ const projects = [
       "https://picsum.photos/400",
     ],
     pic: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet.jpg",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex.jpg",
     ],
   },
   {
@@ -67,7 +67,7 @@ const projects = [
   },
   {
     id: "5",
-    Title: "myFlix App - Angular",
+    Title: "myFlix App - React",
     Description:
       "Web application built with HTML, CSS and JavaScript. The app loads data from an external API and displays a list of items (Pokemons) and their details on demand.",
     Github_Repo: ["https://github.com/cladg92/Pokedex_app"],
@@ -83,7 +83,7 @@ const projects = [
   },
   {
     id: "6",
-    Title: "myFlix API",
+    Title: "myFlix App - Angular",
     Description:
       "Web application built with HTML, CSS and JavaScript. The app loads data from an external API and displays a list of items (Pokemons) and their details on demand.",
     Github_Repo: ["https://github.com/cladg92/Pokedex_app"],
