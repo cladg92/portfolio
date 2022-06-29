@@ -23,9 +23,8 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/meet"],
     Live_Site: ["https://cladg92.github.io/meet/"],
     img: [
-      "https://picsum.photos/400",
-      "https://picsum.photos/400",
-      "https://picsum.photos/400",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet_screen/meet-app1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet_screen/meet-app2.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet1.jpg",
