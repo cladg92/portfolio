@@ -12,7 +12,7 @@ li {
 
 .grid__item {
   position: relative;
-  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .project-image {
@@ -42,6 +42,7 @@ li {
 
 .grid__item:hover h2 {
   visibility: visible;
+  cursor: pointer;
 }
 
 /* CSS grid for work projects */

@@ -1,5 +1,3 @@
-import meet from "./assets/meet.jpg";
-
 const projects = [
   {
     id: "1",
