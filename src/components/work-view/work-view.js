@@ -1,7 +1,7 @@
 import React from "react";
 import "./work-view.css";
 
-import { Row, Col, Container, Nav } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 import ProjectView from "../project-view/project-view";
 
