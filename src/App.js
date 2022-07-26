@@ -14,8 +14,11 @@ function App() {
     <div className="App">
       <Header className="header" />
       <HomeView />
+
       <AboutView />
+      <hr />
       <WorkView projects={projects} />
+
       <ContactView />
       <Footer />
     </div>

@@ -1,5 +1,5 @@
 .work {
-  max-width: 1100px;
+  max-width: 1400px;
 }
 
 li {
@@ -15,33 +15,9 @@ li {
   margin-bottom: 20px;
 }
 
-.project-image {
-  width: 350px;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
-  transition: filter 0.3s;
-  overflow: hidden;
-}
-
-.project-link:hover .project-image {
+.project-image:hover {
   filter: brightness(0.2);
   box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
-  cursor: pointer;
-}
-
-.grid__item h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  visibility: hidden;
-  z-index: 2;
-  transition: all ease-in-out 0.2s;
-}
-
-.grid__item:hover h2 {
-  visibility: visible;
   cursor: pointer;
 }
 
@@ -69,9 +45,11 @@ li {
 }
 
 .project-image {
+  width: 350px;
   border-radius: 5px;
   box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
   transition: filter 0.3s;
+  overflow: hidden;
 }
 
 .project-image:hover {
@@ -90,5 +68,16 @@ li {
 
 .grid__item:hover h2 {
   visibility: visible;
+}
+
+.grid__item h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  visibility: hidden;
+  z-index: 2;
+  transition: all ease-in-out 0.2s;
 }
 */

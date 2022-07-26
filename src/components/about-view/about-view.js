@@ -1,5 +1,6 @@
 import React from "react";
 import "./about-view.css";
+import pic from "../../assets/pic.jpg";
 
 import { Row, Col, Container, Button } from "react-bootstrap";
 
@@ -7,6 +8,7 @@ function AboutView() {
   return (
     <div id="about">
       <h1>About me</h1>
+      <br />
       <Container className="about">
         <Row>
           <Col>
@@ -16,17 +18,18 @@ function AboutView() {
               behind patterns, and finding practical solutions. Programming was
               a surprising discovery for me when, as a researcher-to-be, I found
               myself spending most of my time behind a computer screen,
-              compiling and cleaning databases and performing analyses.
+              compiling and cleaning databases and performing analyses. <br />
+              My background in biology has taught me valuable skills such as
+              analytical thinking and problem-solving skills, as well as
+              interpersonal and work-management skills. <br />
+              My curiosity and fascination with programming languages and their
+              potential to tackle problems and build solutions has eventually
+              led me to my current path.
             </p>
           </Col>
           <Col>
             <p className="profile__about">
-              My background in biology has taught me valuable skills such as
-              analytical thinking and problem-solving skills, as well as
-              interpersonal and work-management skills. My curiosity and
-              fascination with programming languages and their potential to
-              tackle problems and build solutions has eventually led me to my
-              current path.
+              <img src={pic} alt="pic" id="pic" />
             </p>
           </Col>
         </Row>

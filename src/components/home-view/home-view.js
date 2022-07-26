@@ -13,9 +13,9 @@ function HomeView() {
         className="profile__portrait"
       />
       <div className="welcome">
-        <h2 id="hello">Welcome! I'm Clara Di Gregorio</h2>
+        <h2 id="hello">Hi, I'm Clara.</h2>
         <p className="profile__paragraph">
-          I am a Full-Stack Web Developer with a background in environmental
+          I'm a Full-Stack Web Developer with a background in environmental
           biology. <br />
           I mainly work with JavaScript and its client-side and server-side
           libraries and frameworks,
@@ -28,7 +28,7 @@ function HomeView() {
           size="lg"
           href="#about"
         >
-          <i class="fa-solid fa-chevron-down icon"></i>
+          <i className="fa-solid fa-chevron-down icon"></i>
           More about me
         </Button>
       </div>

@@ -1,0 +1,15 @@
+.project-image {
+  width: 700px;
+  border-radius: 5%;
+  box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
+  transition: filter 0.3s;
+  overflow: hidden;
+}
+
+hr {
+  border: 1px solid #f79669;
+}
+
+.project-description {
+  text-align: left;
+}

@@ -3,7 +3,7 @@ p.profile__about {
 }
 
 .about {
-  max-width: 1100px;
+  max-width: 1400px;
 }
 
 .fa-download {
@@ -12,4 +12,10 @@ p.profile__about {
 
 .resume-button {
   margin-top: 20px;
+}
+
+#pic {
+  padding-bottom: 20px;
+  width: 600px;
+  border-radius: 5%;
 }

@@ -6,10 +6,10 @@ function Header() {
   return (
     <Navbar
       className="header"
-      bg="dark"
-      variant="dark"
       expand="lg"
       sticky="top"
+      bg="dark"
+      variant="dark"
     >
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
