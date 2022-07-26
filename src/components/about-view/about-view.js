@@ -2,7 +2,7 @@ import React from "react";
 import "./about-view.css";
 import pic from "../../assets/pic.jpg";
 
-import { Row, Col, Container, Button } from "react-bootstrap";
+import { Row, Col, Container, Button, Image } from "react-bootstrap";
 
 function AboutView() {
   return (
@@ -10,7 +10,7 @@ function AboutView() {
       <h1>About me</h1>
       <br />
       <Container className="about">
-        <Row>
+        <Row xs={1} md={2}>
           <Col>
             <p className="profile__about">
               As a biologist-turned-web developer, I’ve always been passionate
@@ -29,7 +29,7 @@ function AboutView() {
           </Col>
           <Col>
             <p className="profile__about">
-              <img src={pic} alt="pic" id="pic" />
+              <Image fluid src={pic} alt="pic" id="pic" />
             </p>
           </Col>
         </Row>
