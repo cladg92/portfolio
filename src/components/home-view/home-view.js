@@ -2,6 +2,8 @@ import React from "react";
 import "./home-view.css";
 import cv_fotocropped2 from "./cv_fotocropped2.png";
 
+import { Button } from "react-bootstrap";
+
 function HomeView() {
   return (
     <div className="profile" id="home">
@@ -11,10 +13,24 @@ function HomeView() {
         className="profile__portrait"
       />
       <div className="welcome">
-        <h1 id="hello">Hello, I'm Clara</h1>
+        <h2 id="hello">Welcome! I'm Clara Di Gregorio</h2>
         <p className="profile__paragraph">
-          I am a web developer with a background in environmental biology.
+          I am a Full-Stack Web Developer with a background in environmental
+          biology. <br />
+          I mainly work with JavaScript and its client-side and server-side
+          libraries and frameworks,
+          <br />
+          although I am always open to learning new languages and tools.
         </p>
+        <Button
+          className="resume-button"
+          variant="outline-dark"
+          size="lg"
+          href="#about"
+        >
+          <i class="fa-solid fa-chevron-down icon"></i>
+          More about me
+        </Button>
       </div>
     </div>
   );

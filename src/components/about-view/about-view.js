@@ -38,7 +38,7 @@ function AboutView() {
         href="#"
         download
       >
-        <i class="fas fa-download fa-xl"></i>
+        <i class="fas fa-download fa-xl icon"></i>
         Download my resume
       </Button>
     </div>

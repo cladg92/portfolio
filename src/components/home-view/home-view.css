@@ -1,4 +1,10 @@
+#home {
+  padding-top: 80px;
+  background-color: #f79669;
+  height: 100vh;
+}
 .profile__portrait {
+  padding-bottom: 20px;
   width: 250px;
   border-radius: 50%;
 }
