@@ -1,16 +1,13 @@
-import React, { useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import "./project-view.css";
 import { Carousel } from "react-bootstrap";
 
-import ModalView from "../modal/modal";
+import github from "../footer/github.svg";
+import website from "../footer/foreign.png";
 
 function ProjectView(props) {
   const { project } = props;
-  const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
   return (
     <div className="grid__item">
       <div className="project-link">
@@ -30,11 +27,29 @@ function ProjectView(props) {
           </Col>
           <Col className="project-description">
             <h2>{project.Title}</h2>
-            <p>{project.Description}</p>
+
+            <p>{project.tech.map((t) => " -  " + t)}</p>
+            <p id="project-description">{project.Description}</p>
+            <a
+              href={project.Github_Repo}
+              target="_blank"
+              rel="noopener noreferrer"
+              id="git-link"
+            >
+              <img src={github} alt="github" width="30" height="30" />
+            </a>
+            {"  "}
+            <a
+              href={project.Live_Site}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              <img src={website} alt="website" width="25" height="25" />
+            </a>
           </Col>
         </Row>
       </div>
-      <ModalView handleClose={handleClose} show={show} project={project} />
     </div>
   );
 }

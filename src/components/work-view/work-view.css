@@ -15,12 +15,6 @@ li {
   margin-bottom: 20px;
 }
 
-.project-image:hover {
-  filter: brightness(0.2);
-  box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
-  cursor: pointer;
-}
-
 /* CSS grid for work projects */
 
 /* start grid fallback */
