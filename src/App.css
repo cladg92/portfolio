@@ -8,6 +8,7 @@
 }
 
 h1 {
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -32,4 +33,12 @@ p {
 
 .icon {
   padding-right: 11px;
+}
+
+hr {
+  color: #f79669;
+  opacity: 1;
+  margin: auto;
+  width: 60%;
+  max-width: 1000px;
 }

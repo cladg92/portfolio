@@ -14,11 +14,11 @@ function App() {
     <div className="App">
       <Header className="header" />
       <HomeView />
-
+      <hr />
       <AboutView />
       <hr />
       <WorkView projects={projects} />
-
+      <hr />
       <ContactView />
       <Footer />
     </div>
