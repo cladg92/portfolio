@@ -10,7 +10,7 @@ function AboutView() {
       <h1>About me</h1>
       <br />
       <Container className="about">
-        <Row>
+        <Row xs={1} md={2}>
           <Col>
             <p className="profile__about">
               As a biologist-turned-web developer, I’ve always been passionate

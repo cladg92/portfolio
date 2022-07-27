@@ -53,7 +53,7 @@ function ContactView() {
               required
               label="Your Name"
               name="name"
-              placeholder="Focus Otter"
+              placeholder="Milan Kundera"
             />
             <TextField
               label="Email"
