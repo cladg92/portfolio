@@ -3,7 +3,7 @@ const projects = [
     id: "5",
     Title: "myFlix App - React",
     Description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Single-page application (SPA) built using React that fetches data from the movie API.",
     Github_Repo: ["https://github.com/cladg92/myFlix-client"],
     Live_Site: ["https://myflixapp92.netlify.app/"],
     img: [
@@ -22,7 +22,7 @@ const projects = [
     id: "4",
     Title: "myFlix API",
     Description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "RESTful API that allows client to register, login and access movie data stored in a MongoDB database.",
     Github_Repo: ["https://github.com/cladg92/movie_api"],
     Live_Site: ["https://myflixapi92.herokuapp.com/documentation/#/"],
     img: [
@@ -54,9 +54,9 @@ const projects = [
     id: "3",
     Title: "Chat App",
     Description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Chat app for mobile devices built using React Native. The app provides users with a chat interface and options to share images and their location.",
     Github_Repo: ["https://github.com/cladg92/Pokedex_app"],
-    Live_Site: ["https://cladg92.github.io/Pokedex_app/"],
+
     img: [
       "https://picsum.photos/500",
       "https://picsum.photos/500",
@@ -72,7 +72,7 @@ const projects = [
     id: "2",
     Title: "Meet App",
     Description:
-      "Serverless, progressive web application (PWA) built with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events.",
+      "Serverless, progressive web application (PWA) built using React using a test-driven development (TDD) technique. The app uses the Google Calendar API to fetch and display upcoming events by city.",
     Github_Repo: ["https://github.com/cladg92/meet"],
     Live_Site: ["https://cladg92.github.io/meet/"],
     img: [
@@ -98,9 +98,9 @@ const projects = [
     id: "6",
     Title: "myFlix App - Angular",
     Description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    Github_Repo: ["https://github.com/cladg92/Pokedex_app"],
-    Live_Site: ["https://cladg92.github.io/Pokedex_app/"],
+      "Single-page application (SPA) built using Angular that fetches data from the movie API.",
+    Github_Repo: ["https://github.com/cladg92/myFlix-Angular-client"],
+    Live_Site: ["https://cladg92.github.io/myFlix-Angular-client/welcome"],
     img: [
       "https://picsum.photos/400",
       "https://picsum.photos/400",
