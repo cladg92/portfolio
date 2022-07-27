@@ -14,7 +14,11 @@ function Header() {
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Navbar.Brand href="#home" className="brand">
+            <i class="fa-solid fa-code icon" className="brand" />
+            Clara Di Gregorio
+          </Navbar.Brand>
+          <Nav className="ms-auto">
             <a className="menu-item" href="#home">
               Home
             </a>

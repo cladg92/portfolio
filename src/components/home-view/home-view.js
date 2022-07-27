@@ -22,13 +22,8 @@ function HomeView() {
           <br />
           although I am always open to learning new languages and tools.
         </p>
-        <Button
-          className="resume-button"
-          variant="outline-dark"
-          size="lg"
-          href="#about"
-        >
-          <i className="fa-solid fa-chevron-down icon"></i>
+        <Button className="resume-button" size="lg" href="#about">
+          <i className="fa-solid fa-chevron-down icon" />
           More about me
         </Button>
       </div>

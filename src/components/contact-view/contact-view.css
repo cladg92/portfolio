@@ -1,14 +1,3 @@
-#contact {
-  background-color: #f79669;
-}
-
-.mail-link {
-  margin-left: 4px;
-  text-decoration: none;
-  color: black;
-}
-
-.mail-link:hover {
-  opacity: 0.8;
-  color: black;
+form.amplify-flex.form {
+  text-align: left;
 }

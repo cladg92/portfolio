@@ -1,4 +1,4 @@
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import "./project-view.css";
 import { Carousel } from "react-bootstrap";
 
@@ -10,8 +10,8 @@ function ProjectView(props) {
 
   return (
     <div className="grid__item">
-      <div className="project-link">
-        <Row>
+      <Container className="project-link">
+        <Row xs={1} md={2}>
           <Col>
             <Carousel>
               {project.img.map((img) => (
@@ -49,7 +49,7 @@ function ProjectView(props) {
             </a>
           </Col>
         </Row>
-      </div>
+      </Container>
     </div>
   );
 }

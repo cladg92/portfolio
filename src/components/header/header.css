@@ -1,12 +1,16 @@
 .menu-item {
   text-decoration: none;
-  color: antiquewhite;
+  color: #f79669;
   border-radius: 0.5rem;
   border: 0.125rem solid transparent;
-  padding: 0.5em 0.2em;
+  padding: 0.5em 2em;
   width: 100%;
   text-align: center;
   transition-duration: 0.3s;
+}
+
+a.brand.navbar-brand {
+  color: #f79669;
 }
 
 .menu-item:hover {

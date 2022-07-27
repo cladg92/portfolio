@@ -7,6 +7,23 @@ import linkedin from "./linkedin.svg";
 function Footer() {
   return (
     <footer className="page-footer">
+      <p>
+        Clara Di Gregorio
+        <br />
+        Bayreuth, Germany
+      </p>
+      <p className="email">
+        <a className="mail-link" href="mailto:digregorioclr@gmail.com">
+          <i class="fa-solid fa-envelope fa-xl" />
+        </a>
+        <a
+          className="mail-link"
+          href="mailto:digregorioclr@gmail.com"
+          id="mail"
+        >
+          digregorioclr@gmail.com
+        </a>
+      </p>
       <p>Find me on</p>
       <div className="social-media">
         <a
