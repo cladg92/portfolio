@@ -42,6 +42,7 @@ function ContactView() {
           backgroundColor={tokens.colors.white}
           padding={tokens.space.medium}
           borderRadius={tokens.radii.medium}
+          className="contact-form"
         >
           <Flex
             as="form"

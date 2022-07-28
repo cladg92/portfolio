@@ -1,3 +1,7 @@
 form.amplify-flex.form {
   text-align: left;
 }
+
+div.contact-form {
+  box-shadow: 5px 5px 10px #434343;
+}

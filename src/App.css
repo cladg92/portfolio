@@ -23,6 +23,25 @@ p {
   color: white;
 }
 
+a.resume-button {
+  background-color: #f79669;
+  color: black;
+  border-color: black;
+  box-shadow: 2px 2px 10px #434343;
+}
+
+a.resume-button:hover {
+  background-color: black;
+  color: #f79669;
+  border-color: #f79669;
+}
+
+#pic {
+  width: 600px;
+  border-radius: 5%;
+  box-shadow: 5px 5px 10px #434343;
+}
+
 #about,
 #work,
 #contact {
@@ -31,14 +50,19 @@ p {
   height: max-content;
 }
 
+#about,
+#contact {
+  background-color: rgb(232, 232, 232);
+}
+
 .icon {
   padding-right: 11px;
 }
 
-hr {
+/*hr {
   color: #f79669;
   opacity: 1;
   margin: auto;
   width: 60%;
   max-width: 1000px;
-}
+}*/
