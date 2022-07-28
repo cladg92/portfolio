@@ -13,7 +13,7 @@ function WorkView(props) {
       <ul className="WorkView">
         <h1>Work</h1>
         <br />
-        <Row xs={1} md={3}>
+        <Row xs={1} md={2} xl={3}>
           {projects.map((project) => (
             <Col>
               <li>

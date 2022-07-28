@@ -23,14 +23,16 @@ p {
   color: white;
 }
 
-a.resume-button {
+a.resume-button,
+button.resume-button {
   background-color: #f79669;
   color: black;
   border-color: black;
   box-shadow: 2px 2px 10px #434343;
 }
 
-a.resume-button:hover {
+a.resume-button:hover,
+button.resume-button:hover {
   background-color: black;
   color: #f79669;
   border-color: #f79669;
@@ -52,6 +54,11 @@ a.resume-button:hover {
 
 #about,
 #contact {
+  background-color: rgb(232, 232, 232);
+}
+
+div.card-body,
+div.card-header {
   background-color: rgb(232, 232, 232);
 }
 

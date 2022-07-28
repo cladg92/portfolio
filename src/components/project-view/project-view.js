@@ -9,7 +9,7 @@ function ProjectView(props) {
 
   return (
     <div className="grid__item">
-      <Card style={{ width: "27rem" }}>
+      <Card>
         <Card.Header>{project.Title}</Card.Header>
         <Carousel>
           {project.img.map((img) => (

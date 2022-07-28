@@ -1,13 +1,12 @@
 import React from "react";
 import {
-  Button,
   Flex,
   View,
   useTheme,
   TextField,
   TextAreaField,
-  Card,
 } from "@aws-amplify/ui-react";
+import { Button } from "react-bootstrap";
 
 import { API } from "aws-amplify";
 import { createCandidate } from "../../graphql/mutations";
@@ -70,7 +69,9 @@ function ContactView() {
               required
             />
             <View style={{ marginTop: tokens.space.medium }}>
-              <Button type="submit">Send Message</Button>
+              <Button className="resume-button" type="submit">
+                Send Message
+              </Button>
             </View>
           </Flex>
         </View>
