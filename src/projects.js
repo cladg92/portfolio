@@ -7,11 +7,9 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/myFlix-client"],
     Live_Site: ["https://myflixapp92.netlify.app/"],
     img: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/myFlix1.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/myFlix2.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/myFlix3.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/myFlix4.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/myFlix5.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Flix1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Flix2.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Flix3.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlix1.jpg",
@@ -26,8 +24,8 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/movie_api"],
     Live_Site: ["https://myflixapi92.herokuapp.com/documentation/#/"],
     img: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixAPI_screen/api1.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixAPI_screen/api2.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixAPI_screen/movieapi1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixAPI_screen/movieapi2.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/api1.jpg",
@@ -42,8 +40,8 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/Pokedex_app"],
     Live_Site: ["https://cladg92.github.io/Pokedex_app/"],
     img: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex_screen/pokedex1.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex_screen/pokedex2.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex_screen/poke1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex_screen/poke2.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex1.jpg",
@@ -72,8 +70,8 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/meet"],
     Live_Site: ["https://cladg92.github.io/meet/"],
     img: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet_screen/meet-app1.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet_screen/meet-app2.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet_screen/meet1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet_screen/meet2.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet1.jpg",
@@ -98,9 +96,8 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/myFlix-Angular-client"],
     Live_Site: ["https://cladg92.github.io/myFlix-Angular-client/welcome"],
     img: [
-      "https://picsum.photos/400",
-      "https://picsum.photos/400",
-      "https://picsum.photos/400",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Angular_screens/angular1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Angular_screens/angular1.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/angular1.jpg",

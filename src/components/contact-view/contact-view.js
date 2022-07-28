@@ -31,6 +31,8 @@ function ContactView() {
         },
       },
     });
+    e.target.reset();
+    alert("Thank you for getting in touch! The message was successfully sent.");
   };
   return (
     <div id="contact">
@@ -69,7 +71,11 @@ function ContactView() {
               required
             />
             <View style={{ marginTop: tokens.space.medium }}>
-              <Button className="resume-button" type="submit">
+              <Button
+                className="resume-button"
+                variant="outline-dark"
+                type="submit"
+              >
                 Send Message
               </Button>
             </View>

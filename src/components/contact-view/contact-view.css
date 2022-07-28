@@ -5,3 +5,8 @@ form.amplify-flex.form {
 div.contact-form {
   box-shadow: 5px 5px 10px #434343;
 }
+
+label.amplify-label,
+button.resume-button {
+  font-size: 1.2em;
+}
