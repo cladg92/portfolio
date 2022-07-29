@@ -8,6 +8,8 @@ import {
 } from "@aws-amplify/ui-react";
 import { Button } from "react-bootstrap";
 
+import beeater from "../../assets/glen-carrie.jpg";
+
 import { API } from "aws-amplify";
 import { createCandidate } from "../../graphql/mutations";
 
@@ -82,6 +84,7 @@ function ContactView() {
           </Flex>
         </View>
       </Flex>
+      <img src={beeater} alt="bee-eater" className="beeater" />
     </div>
   );
 }

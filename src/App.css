@@ -58,10 +58,15 @@ div.card {
 }
 
 #about,
-#work,
-#contact {
+#work {
   padding-top: 70px;
   padding-bottom: 70px;
+  height: max-content;
+}
+
+#contact {
+  padding-top: 70px;
+  padding-bottom: 40px;
   height: max-content;
 }
 
