@@ -55,7 +55,10 @@ const projects = [
       "Chat app for mobile devices built using React Native. The app provides users with a chat interface and options to share images and their location.",
     Github_Repo: ["https://github.com/cladg92/chat-app"],
 
-    img: ["https://picsum.photos/1920/1020", "https://picsum.photos/1920/1020"],
+    img: [
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Chatapp_screens/chat1.png",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Chatapp_screens/chat2.png",
+    ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/chat1.jpg",
     ],
