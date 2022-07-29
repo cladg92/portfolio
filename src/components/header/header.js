@@ -12,12 +12,12 @@ function Header() {
       variant="dark"
     >
       <Container>
+        <Navbar.Brand href="#home" className="brand">
+          <i class="fa-solid fa-code icon"></i>
+          CDG
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Navbar.Brand href="#home" className="brand">
-            <i class="fa-solid fa-code icon" className="brand" />
-            Clara Di Gregorio
-          </Navbar.Brand>
           <Nav className="ms-auto">
             <a className="menu-item" href="#home">
               Home
