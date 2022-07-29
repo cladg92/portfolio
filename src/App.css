@@ -86,6 +86,11 @@ div.card-header {
   padding-right: 11px;
 }
 
+/*Color all element borders in red */
+/* {
+  border: 1px solid red !important;
+}*/
+
 /*hr {
   color: #f79669;
   opacity: 1;
