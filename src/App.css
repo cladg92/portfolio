@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: white;
 }
 
 * {
@@ -66,9 +65,11 @@ div.card {
   height: max-content;
 }
 
-#about,
-#contact {
-  background-color: rgb(232, 232, 232);
+.about,
+.home,
+.work-view {
+  max-width: 1300px;
+  margin: auto;
 }
 
 div.card-body,

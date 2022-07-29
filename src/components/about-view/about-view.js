@@ -7,7 +7,9 @@ import { Row, Col, Container, Button, Image } from "react-bootstrap";
 function AboutView() {
   return (
     <div id="about">
-      <h1>About me</h1>
+      <div className="page-title">
+        <h1>About me</h1>
+      </div>
       <br />
       <Container className="about">
         <Row xs={1} md={2}>

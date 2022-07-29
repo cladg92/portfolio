@@ -4,13 +4,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 function Header() {
   return (
-    <Navbar
-      className="header"
-      expand="lg"
-      sticky="top"
-      bg="dark"
-      variant="dark"
-    >
+    <Navbar className="header" expand="lg" sticky="top" variant="dark">
       <Container>
         <Navbar.Brand href="#home" className="brand">
           <i class="fa-solid fa-code icon"></i>
