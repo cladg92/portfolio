@@ -5,16 +5,3 @@
 .project-description {
   text-align: left;
 }
-
-#git-link {
-  padding-right: 10px;
-}
-
-span.tech-item.badge {
-  margin: 2px;
-  color: #f79669;
-}
-
-a.card-link:hover {
-  opacity: 0.8;
-}

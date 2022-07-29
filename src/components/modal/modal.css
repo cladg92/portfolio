@@ -1,0 +1,9 @@
+div.tech {
+  margin-top: 8px;
+  text-align: center;
+}
+
+span.tech-item.badge {
+  margin: 2px;
+  color: #f79669;
+}

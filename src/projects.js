@@ -56,8 +56,7 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/chat-app"],
 
     img: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Chatapp_screens/chat1.png",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Chatapp_screens/chat2.png",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Chatapp_screens/chat.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/chat1.jpg",

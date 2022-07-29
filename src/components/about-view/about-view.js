@@ -29,7 +29,7 @@ function AboutView() {
           </Col>
           <Col>
             <p className="profile__about">
-              <Image fluid src={pic} alt="pic" id="pic" />
+              <Image fluid src={pic} alt="pic" id="pic" className="pic" />
             </p>
           </Col>
         </Row>

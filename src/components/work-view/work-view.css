@@ -15,6 +15,31 @@ li {
   margin-bottom: 20px;
 }
 
+.grid__item h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  visibility: hidden;
+  z-index: 2;
+}
+
+.project-link:hover .project-image {
+  filter: brightness(0.2);
+  box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+.grid__item h2:hover {
+  cursor: pointer;
+}
+
+.grid__item:hover h2 {
+  visibility: visible;
+}
+
 /* CSS grid for work projects */
 
 /* start grid fallback */

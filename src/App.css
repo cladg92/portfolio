@@ -47,6 +47,9 @@ button.resume-button:hover {
 
 #pic {
   width: 600px;
+}
+
+.pic {
   border-radius: 5%;
   box-shadow: 5px 5px 10px #434343;
 }
