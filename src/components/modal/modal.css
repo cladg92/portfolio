@@ -6,4 +6,29 @@ div.tech {
 span.tech-item.badge {
   margin: 2px;
   color: #f79669;
+  font-size: 1em;
+}
+
+.carousel {
+  padding: 30px;
+}
+
+div.description {
+  padding: 0 30px 30px 30px;
+}
+
+div.modal-header {
+  background-image: url("C:\Users\Clara Di Gregorio\Desktop\Careerfoundry\portfolio\src\assets\subvertivo.jpg");
+  background-size: cover;
+  background-color: black;
+  color: whitesmoke;
+  padding: 30px 30px;
+}
+
+div.modal-header button.btn-close {
+  background-color: #f79669;
+}
+
+div.modal-footer {
+  background-color: black;
 }

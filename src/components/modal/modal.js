@@ -1,18 +1,24 @@
 import React from "react";
 import "./modal.css";
 
-import { Row, Col, Carousel, Modal, Button, Badge } from "react-bootstrap";
+import { Carousel, Modal, Button, Badge, CloseButton } from "react-bootstrap";
 
 function ModalView(props) {
   const { project } = props;
 
   return (
-    <Modal show={props.show} onHide={props.handleClose} centered size="lg">
+    <Modal
+      show={props.show}
+      onHide={props.handleClose}
+      centered
+      size="lg"
+      className="modal"
+    >
       <Modal.Header className="text-center" closeButton>
-        <h3>{project.Title}</h3>
+        <h3 className="w-100">{project.Title}</h3>
       </Modal.Header>
       <Modal.Body>
-        <Carousel>
+        <Carousel className="carousel">
           {project.img.map((img) => (
             <Carousel.Item>
               <img
@@ -37,10 +43,16 @@ function ModalView(props) {
       </Modal.Body>
       <Modal.Footer>
         <a href={project.Github_Repo} target="_blank" rel="noopener noreferrer">
-          <Button variant="secondary">Code</Button>
+          <Button variant="outline-dark">
+            {" "}
+            <i class="fa-solid fa-code-fork" /> Code
+          </Button>
         </a>
         <a href={project.Live_Site} target="_blank" rel="noopener noreferrer">
-          <Button variant="primary">Try it</Button>
+          <Button variant="outline-dark">
+            {" "}
+            <i class="fa-solid fa-play" /> Demo
+          </Button>
         </a>
       </Modal.Footer>
     </Modal>

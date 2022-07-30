@@ -1,6 +1,7 @@
 import React from "react";
 import "./about-view.css";
 import pic from "../../assets/pic.jpg";
+import cv from "../../assets/DiGregorio_Clara_Resume.pdf";
 
 import { Row, Col, Container, Button, Image } from "react-bootstrap";
 
@@ -40,7 +41,7 @@ function AboutView() {
         className="resume-button"
         variant="outline-dark"
         size="lg"
-        href="#"
+        href={cv}
         download
       >
         <i class="fas fa-download fa-xl icon"></i>

@@ -3,7 +3,7 @@ const projects = [
     id: "5",
     Title: "myFlix App - React",
     Description:
-      "Single-page application (SPA) built using React that fetches data from the movie API.",
+      "Web application that provides users with access to information about different movies, directors, and genres. The app is built as a single-page application (SPA) using React and fetches data from the movie API.",
     Github_Repo: ["https://github.com/cladg92/myFlix-client"],
     Live_Site: ["https://myflixapp92.netlify.app/"],
     img: [

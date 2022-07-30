@@ -30,7 +30,8 @@ p {
 }
 
 a.resume-button,
-button.resume-button {
+button.resume-button,
+button.btn {
   background-color: #f79669;
   color: black;
   border-color: black;
@@ -38,7 +39,8 @@ button.resume-button {
 }
 
 a.resume-button:hover,
-button.resume-button:hover {
+button.resume-button:hover,
+button.btn:hover {
   background-color: black;
   color: #f79669;
   border-color: #f79669;

@@ -2,9 +2,9 @@
   padding-top: 150px;
   padding-bottom: 200px;
   background-image: url("C:\Users\Clara Di Gregorio\Desktop\Careerfoundry\portfolio\src\assets\subvertivo.jpg");
+  background-size: cover;
   background-color: black;
   color: whitesmoke;
-  background-size: cover;
 }
 
 .profile__portrait {
