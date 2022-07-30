@@ -8,17 +8,15 @@ function Footer() {
   return (
     <footer className="page-footer">
       <Container>
-        <Row className="justify-content-center">
-          <Col>
+        <Row className="justify-content-center" xs={1} sm={3}>
+          <Col className="footer-section">
             <div className="contact-info">
               <p>
                 Clara Di Gregorio
                 <br />
-                Bayreuth, Germany
-              </p>
-              <p className="email">
+                Bayreuth, Germany <br />
                 <a
-                  className="mail-link"
+                  className="email mail-link"
                   href="mailto:digregorioclr@gmail.com"
                   id="mail"
                 >
@@ -27,7 +25,7 @@ function Footer() {
               </p>
             </div>
           </Col>
-          <Col>
+          <Col className="footer-section">
             <div className="social-media">
               <p>Find me on</p>
               <div className="social-media">
@@ -52,7 +50,84 @@ function Footer() {
               </div>
             </div>
           </Col>
+          <Col className="footer-section">
+            <p>Pictures from Unsplash by:</p>
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://unsplash.com/@thimo"
+              className="link"
+            >
+              {" "}
+              Thimo Pedersen
+            </a>
+            <br />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://unsplash.com/@priscilladupreez"
+              className="link"
+            >
+              {" "}
+              Priscilla Du Preez
+            </a>
+            <br />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://unsplash.com/@felixmooneeram"
+              className="link"
+            >
+              {" "}
+              Felix Mooneeram
+            </a>
+            <br />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://unsplash.com/@tysonmoultrie"
+              className="link"
+            >
+              {" "}
+              Tyson Moultrie
+            </a>
+            <br />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://unsplash.com/@maikeningvordsen"
+              className="link"
+            >
+              {" "}
+              Maiken Ingvordsen
+            </a>
+            <br />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://unsplash.com/@subvertivo_lab"
+              className="link"
+            >
+              {" "}
+              subvertivo _lab
+            </a>
+            <br />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://unsplash.com/@glencarrie"
+              className="link"
+            >
+              {" "}
+              Glen Carrie
+            </a>
+          </Col>
+        </Row>
+        <Row xs={1} className="footer-section">
+          <Col>Designed and coded by Clara Di Gregorio</Col>
           <Col>
+            All rights reserved |{" "}
             <a href="#" className="mail-link">
               Impressum
             </a>

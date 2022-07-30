@@ -3,19 +3,27 @@
     brightness(98%) contrast(98%);
 }
 
-.page-footer {
+footer.page-footer {
   padding-top: 50px;
   padding-bottom: 50px;
+  background-image: url("C:\Users\Clara Di Gregorio\Desktop\Careerfoundry\portfolio\src\assets\subvertivo.jpg");
+  background-size: cover;
   background-color: black;
   color: #f79669;
+  font-size: 1em;
 }
 
-.mail-link {
+.mail-link,
+a.link {
   color: #f79669;
 }
 
 .mail-link:hover,
-a.link.filter-white:hover {
+a.link:hover {
   opacity: 0.8;
   color: #f79669;
+}
+
+.footer-section {
+  padding-top: 40px;
 }
