@@ -12,8 +12,8 @@ import { projects } from "./projects";
 function App() {
   return (
     <div className="App">
-      <Header className="header" />
       <HomeView />
+      <Header className="header" />
       <AboutView />
       <WorkView projects={projects} />
       <ContactView />

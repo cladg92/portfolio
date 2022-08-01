@@ -66,6 +66,10 @@ div.card {
   height: max-content;
 }
 
+.outer-workdiv {
+  background-color: #ebebeb;
+}
+
 #contact {
   padding-top: 70px;
   padding-bottom: 40px;
@@ -77,6 +81,10 @@ div.card {
 .work-view {
   max-width: 1300px;
   margin: auto;
+}
+
+.home {
+  height: 100vh;
 }
 
 div.card-body,

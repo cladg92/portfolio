@@ -41,8 +41,7 @@ function ContactView() {
       <h1>Contact me</h1>
       <Flex justifyContent={"center"}>
         <View
-          width={{ base: "70vw", large: "1000px" }}
-          backgroundColor={tokens.colors.white}
+          width={{ base: "95vw", large: "1000px" }}
           padding={tokens.space.medium}
           borderRadius={tokens.radii.medium}
           className="contact-form"
@@ -78,7 +77,7 @@ function ContactView() {
                 variant="outline-dark"
                 type="submit"
               >
-                Send Message
+                Submit
               </Button>
             </View>
           </Flex>

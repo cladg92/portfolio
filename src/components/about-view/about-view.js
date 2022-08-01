@@ -11,7 +11,6 @@ function AboutView() {
       <div className="page-title">
         <h1>About me</h1>
       </div>
-      <br />
       <Container className="about">
         <Row xs={1} md={2}>
           <Col>
@@ -31,9 +30,7 @@ function AboutView() {
             </p>
           </Col>
           <Col>
-            <p className="profile__about">
-              <Image fluid src={pic} alt="pic" id="pic" className="pic" />
-            </p>
+            <p className="profile__about"></p>
           </Col>
         </Row>
       </Container>
@@ -52,3 +49,5 @@ function AboutView() {
 }
 
 export default AboutView;
+
+//<Image fluid src={pic} alt="pic" id="pic" className="pic" />
