@@ -9,3 +9,11 @@ p.profile__about {
 .resume-button {
   margin-top: 20px;
 }
+
+#profile__about_1 {
+  padding-right: 30px;
+}
+
+#profile__about_2 {
+  padding-left: 30px;
+}
