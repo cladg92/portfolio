@@ -42,20 +42,21 @@ function AboutView() {
               potential to tackle problems and build solutions has eventually
               led me to my current path.
               <br /> I see myself as a lifelong learner and that's just yet
-              another thing that makes web development so exciting, it's an
+              another aspect that makes web development so exciting: it's an
               endless journey of learning! <br />
               <br />
-              Apart from coding I enjoy hiking in the mountains of my home{" "}
+              Apart from coding, I enjoy hiking in the mountains of my{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Abruzzo"
                 target="_blank"
                 rel="noreferrer"
+                className="link"
               >
-                region
+                home region
               </a>
               , reading novels and traveling. <br />
               Learning languages holds a special place among my hobbies and I
-              like to think this is somehow related to my inclination for
+              like to think that this is somehow related to my inclination for
               programming languages as well. I am fascinated by the cognitive
               process involved in learning a new language, I enjoy noticing and
               grasping its grammatical and lexical peculiarities, and, of

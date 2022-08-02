@@ -9,14 +9,15 @@ function HomeView() {
     <div id="home">
       <Container className="profile">
         <Row className="home align-items-center">
-          <Col className="profile__portrait " xs={12} md={4}>
+          <Col className="profile__portrait " xs={12} md={6} lg={5} xl={4}>
             <img
               src={cv_fotocropped2}
               alt="Clara Di Gregorio portrait"
               className="profile__portrait"
             />
           </Col>
-          <Col className="welcome" xs={12} md={7}>
+
+          <Col className="welcome" xs={12} md={6} lg={7} xl={7}>
             <h1 id="hello">Hi, I'm Clara.</h1>
             <p className="profile__paragraph">
               I'm a Full-Stack Web Developer with a background in environmental

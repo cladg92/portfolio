@@ -23,13 +23,14 @@ li {
   color: white;
   visibility: hidden;
   z-index: 2;
+  font-weight: bold;
 }
 
 .project-link:hover .project-image {
   filter: brightness(0.2);
   box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
   cursor: pointer;
-  transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.2s;
 }
 
 .grid__item h2:hover {

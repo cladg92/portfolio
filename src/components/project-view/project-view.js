@@ -17,7 +17,7 @@ function ProjectView(props) {
     <div className="grid__item">
       <div className="grid__item">
         <Nav className="project-link" onClick={handleShow}>
-          <h2>{project.Title}</h2>
+          <h2 className="project-title">{project.Title}</h2>
           <img src={project.pic} className="project-image pic" alt="project" />
         </Nav>
         <ModalView handleClose={handleClose} show={show} project={project} />
