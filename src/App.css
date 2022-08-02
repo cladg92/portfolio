@@ -46,10 +46,6 @@ button.btn:hover {
   border-color: #f79669;
 }
 
-#pic {
-  width: 600px;
-}
-
 .pic {
   border-radius: 5%;
   box-shadow: 5px 5px 10px #434343;
@@ -94,6 +90,34 @@ div.card-header {
 
 .icon {
   padding-right: 11px;
+}
+
+@media (max-width: 815px) {
+  h1 {
+    font-size: 2.2em;
+  }
+  p {
+    font-size: 1em;
+  }
+  a.resume-button,
+  button.resume-button.btn,
+  button.btn {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  a.resume-button,
+  button.resume-button.btn,
+  button.btn {
+    font-size: small;
+  }
 }
 
 /*Color all element borders in red */

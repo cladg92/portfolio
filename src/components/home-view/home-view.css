@@ -13,9 +13,16 @@ img.profile__portrait {
 @media (max-width: 950px) {
   img.profile__portrait {
     display: block;
-    width: 325px;
+    width: 280px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 300px) {
+  img.profile__portrait {
+    display: block;
+    width: 240px;
   }
 }
 
