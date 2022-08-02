@@ -1,3 +1,5 @@
+import video from "./assets/Chatapp_screens/chat-app.mp4";
+
 const projects = [
   {
     id: "4",
@@ -84,6 +86,7 @@ const projects = [
     The app was built using React Native and uses Firebase’s Cloud Firestore to store data and ensure real-time 
     transfer to the user. `,
     Github_Repo: ["https://github.com/cladg92/chat-app"],
+    Live_Site: ["https://youtube.com/shorts/bTCtS5YFaGk?feature=share"],
 
     img: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Chatapp_screens/chat.PNG",

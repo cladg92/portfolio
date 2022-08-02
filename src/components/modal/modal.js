@@ -1,7 +1,7 @@
 import React from "react";
 import "./modal.css";
 
-import { Carousel, Modal, Button, Badge, CloseButton } from "react-bootstrap";
+import { Carousel, Modal, Button, Badge } from "react-bootstrap";
 
 function ModalView(props) {
   const { project } = props;
