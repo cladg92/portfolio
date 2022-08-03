@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.662e8a70.css",
-    "main.js": "/portfolio/static/js/main.c2fedac9.js",
+    "main.css": "/portfolio/static/css/main.2281329a.css",
+    "main.js": "/portfolio/static/js/main.0a55733f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/chat-app.mp4": "/portfolio/static/media/chat-app.f9c66b945c3708ce7497.mp4",
     "static/media/cv_fotocropped2.png": "/portfolio/static/media/cv_fotocropped2.531f60dfb4ad37903a8d.png",
@@ -11,14 +11,15 @@
     "static/media/DiGregorio_Clara_Resume.pdf": "/portfolio/static/media/DiGregorio_Clara_Resume.041ef478b33e37ed7654.pdf",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/media/github.svg": "/portfolio/static/media/github.d0929cc9e1fca2da9e181d016907c404.svg",
+    "static/media/twitter.svg": "/portfolio/static/media/twitter.a015e3a2a91c70b0b7f4e75290111429.svg",
     "index.html": "/portfolio/index.html",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.13207281892bacb2c739f8d1c84c161a.svg",
-    "main.662e8a70.css.map": "/portfolio/static/css/main.662e8a70.css.map",
-    "main.c2fedac9.js.map": "/portfolio/static/js/main.c2fedac9.js.map",
+    "main.2281329a.css.map": "/portfolio/static/css/main.2281329a.css.map",
+    "main.0a55733f.js.map": "/portfolio/static/js/main.0a55733f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.662e8a70.css",
-    "static/js/main.c2fedac9.js"
+    "static/css/main.2281329a.css",
+    "static/js/main.0a55733f.js"
   ]
 }
