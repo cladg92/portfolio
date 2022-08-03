@@ -23,27 +23,25 @@ function AboutView() {
               last year. Programming was a surprising discovery for me when, as
               a researcher-to-be, I found myself spending most of my time behind
               a computer screen, compiling and cleaning databases and performing
-              analyses. I progressively realised I enjoyed the coding part of my
-              job more and more, until last year I decided to "follow my guts"
-              and transition into tech.
+              analyses. My curiosity and fascination with programming languages
+              and their potential to tackle problems and build solutions has
+              eventually led me to my current path.
+              <br /> I see myself as a lifelong learner and that's just yet
+              another aspect that makes web development so exciting: it's an
+              endless journey of learning! <br />
               <br />
-              <br /> As a biologist-turned-web developer, I’ve always been
-              passionate about learning new things, searching for logical
-              explanations behind patterns, and finding practical solutions.
               <br />
-              My background in biology has taught me valuable skills such as
-              analytical thinking and problem-solving skills, as well as
-              interpersonal and work-management skills.
             </p>
           </Col>
           <Col>
             <p className="profile__about" id="profile__about_2">
-              My curiosity and fascination with programming languages and their
-              potential to tackle problems and build solutions has eventually
-              led me to my current path.
-              <br /> I see myself as a lifelong learner and that's just yet
-              another aspect that makes web development so exciting: it's an
-              endless journey of learning! <br />
+              As a biologist-turned-web developer, I’ve always been passionate
+              about learning new things, searching for logical explanations
+              behind patterns, and finding practical solutions. My background in
+              biology has taught me valuable skills such as analytical thinking
+              and problem-solving skills, as well as interpersonal and
+              work-management skills.
+              <br />
               <br />
               Apart from coding, I enjoy hiking in the mountains of my{" "}
               <a
@@ -55,13 +53,12 @@ function AboutView() {
                 home region
               </a>
               , reading novels and traveling. <br />
-              Learning languages holds a special place among my hobbies and I
-              like to think that this is somehow related to my inclination for
-              programming languages as well. I am fascinated by the cognitive
+              Learning languages (yes, also programming languages!) holds a
+              special place among my hobbies. I am fascinated by the cognitive
               process involved in learning a new language, I enjoy noticing and
               grasping its grammatical and lexical peculiarities, and, of
-              course, I strive for the end result: being able to communicate and
-              therefore gain a unique access to the culture behind it.
+              course, being able to communicate in another language is
+              priceless.
             </p>
           </Col>
         </Row>
