@@ -96,13 +96,17 @@ div.card-header {
   h1 {
     font-size: 2.2em;
   }
-  p {
+  p,
+  label.amplify-label {
     font-size: 1em;
   }
   a.resume-button,
   button.resume-button.btn,
   button.btn {
     font-size: medium;
+  }
+  span.tech-item.badge.bg-dark {
+    font-size: 0.8em;
   }
 }
 

@@ -53,22 +53,28 @@ function ContactView() {
             className="form"
           >
             <TextField
-              required
               label="Your Name"
+              labelHidden={true}
               name="name"
-              placeholder="Milan Kundera"
+              placeholder="Name"
+              variation="quiet"
+              required
             />
             <TextField
               label="Email"
+              labelHidden={true}
               name="email"
-              placeholder="you@email.com"
+              placeholder="Email"
               type={"email"}
+              variation="quiet"
               required
             />
             <TextAreaField
               label="Message"
+              labelHidden={true}
               name="message"
-              placeholder="Enter your message"
+              placeholder="message"
+              variation="quiet"
               required
             />
             <View style={{ marginTop: tokens.space.medium }}>

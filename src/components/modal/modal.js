@@ -10,6 +10,7 @@ function ModalView(props) {
     <Modal
       show={props.show}
       onHide={props.handleClose}
+      fullscreen="md-down"
       centered
       size="lg"
       className="modal"
