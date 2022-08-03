@@ -81,6 +81,7 @@ div.card {
 
 .home {
   height: 100vh;
+  overflow: auto;
 }
 
 div.card-body,
