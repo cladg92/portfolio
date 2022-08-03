@@ -40,7 +40,7 @@ function Footer() {
                   <img src={github} alt="github" width="30" height="30" />
                 </a>
                 <a
-                  href="www.linkedin.com/in/claradg/"
+                  href="https://www.linkedin.com/in/claradg/"
                   target="_blank"
                   rel="noreferrer"
                   className="link filter-white"
