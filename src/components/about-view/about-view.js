@@ -65,6 +65,7 @@ function AboutView() {
       </Container>
       <Button
         className="resume-button"
+        id="download-button"
         variant="outline-dark"
         size="lg"
         href={cv}

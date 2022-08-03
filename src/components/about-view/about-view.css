@@ -10,7 +10,12 @@ p.profile__about {
   margin-top: 20px;
 }
 
+#download-button {
+  margin-top: 36px;
+}
+
 .profile__about {
   padding-right: 10px;
   padding-left: 10px;
+  margin-bottom: 0;
 }
