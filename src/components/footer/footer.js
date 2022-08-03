@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import github from "./github.svg";
 import linkedin from "./linkedin.svg";
+import twitter from "./twitter.svg";
 import { Col, Container, Row } from "react-bootstrap";
 
 function Footer() {
@@ -39,13 +40,23 @@ function Footer() {
                   <img src={github} alt="github" width="30" height="30" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/clara-di-gregorio-8082291a9/"
+                  href="www.linkedin.com/in/claradg/"
                   target="_blank"
                   rel="noreferrer"
                   className="link filter-white"
                   aria-hidden="true"
                 >
-                  <img src={linkedin} alt="github" width="30" height="30" />
+                  <img src={linkedin} alt="linkedin" width="30" height="30" />
+                </a>
+                <a
+                  href="https://twitter.com/cladg2"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="link filter-white"
+                  id="twitter-link"
+                  aria-hidden="true"
+                >
+                  <img src={twitter} alt="twitter" width="28" height="30" />
                 </a>
               </div>
             </div>
