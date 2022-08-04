@@ -28,7 +28,7 @@ function App() {
             </div>
           }
         />
-        <Route path="/impressum" element={<Impressum />} />
+        <Route path="/portfolio/impressum" element={<Impressum />} />
       </Routes>
       <Footer />
     </Router>
