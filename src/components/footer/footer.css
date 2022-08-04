@@ -1,3 +1,11 @@
+.page-footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: white;
+}
+
 .filter-white {
   filter: invert(62%) sepia(80%) saturate(384%) hue-rotate(327deg)
     brightness(98%) contrast(98%);

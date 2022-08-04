@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import HomeView from "./components/home-view/home-view";
@@ -7,18 +8,30 @@ import Footer from "./components/footer/footer";
 import AboutView from "./components/about-view/about-view";
 import ContactView from "./components/contact-view/contact-view";
 import WorkView from "./components/work-view/work-view";
+import Impressum from "./components/impressum/impressum";
 import { projects } from "./projects";
 
 function App() {
   return (
-    <div className="App">
-      <HomeView />
+    <Router>
       <Header className="header" />
-      <AboutView />
-      <WorkView projects={projects} />
-      <ContactView />
+      <Routes>
+        <Route
+          exact
+          path="/"
+          element={
+            <div className="App">
+              <HomeView />
+              <AboutView />
+              <WorkView projects={projects} />
+              <ContactView />
+            </div>
+          }
+        />
+        <Route path="/impressum" element={<Impressum />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 

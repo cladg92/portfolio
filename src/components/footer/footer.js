@@ -61,87 +61,94 @@ function Footer() {
               </div>
             </div>
           </Col>
-          <Col className="footer-section">
-            <p>Pictures from Unsplash by:</p>
+          {window.location.pathname === "/" && (
+            <Col className="footer-section">
+              <p>Pictures from Unsplash by:</p>
 
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://unsplash.com/@thimo"
-              className="link"
-            >
-              {" "}
-              Thimo Pedersen
-            </a>
-            <br />
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://unsplash.com/@priscilladupreez"
-              className="link"
-            >
-              {" "}
-              Priscilla Du Preez
-            </a>
-            <br />
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://unsplash.com/@felixmooneeram"
-              className="link"
-            >
-              {" "}
-              Felix Mooneeram
-            </a>
-            <br />
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://unsplash.com/@tysonmoultrie"
-              className="link"
-            >
-              {" "}
-              Tyson Moultrie
-            </a>
-            <br />
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://unsplash.com/@maikeningvordsen"
-              className="link"
-            >
-              {" "}
-              Maiken Ingvordsen
-            </a>
-            <br />
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://unsplash.com/@subvertivo_lab"
-              className="link"
-            >
-              {" "}
-              subvertivo _lab
-            </a>
-            <br />
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://unsplash.com/@glencarrie"
-              className="link"
-            >
-              {" "}
-              Glen Carrie
-            </a>
-          </Col>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://unsplash.com/@thimo"
+                className="link"
+              >
+                {" "}
+                Thimo Pedersen
+              </a>
+              <br />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://unsplash.com/@priscilladupreez"
+                className="link"
+              >
+                {" "}
+                Priscilla Du Preez
+              </a>
+              <br />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://unsplash.com/@felixmooneeram"
+                className="link"
+              >
+                {" "}
+                Felix Mooneeram
+              </a>
+              <br />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://unsplash.com/@tysonmoultrie"
+                className="link"
+              >
+                {" "}
+                Tyson Moultrie
+              </a>
+              <br />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://unsplash.com/@maikeningvordsen"
+                className="link"
+              >
+                {" "}
+                Maiken Ingvordsen
+              </a>
+              <br />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://unsplash.com/@subvertivo_lab"
+                className="link"
+              >
+                {" "}
+                subvertivo _lab
+              </a>
+              <br />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://unsplash.com/@glencarrie"
+                className="link"
+              >
+                {" "}
+                Glen Carrie
+              </a>
+            </Col>
+          )}
         </Row>
         <Row xs={1} className="footer-section">
           <Col>Designed and coded by Clara Di Gregorio</Col>
           <Col>
-            All rights reserved |{" "}
-            <a href="#" className="mail-link">
-              Impressum
-            </a>
+            All rights reserved
+            {window.location.pathname === "/" && (
+              <>
+                <span> | </span>
+                <a href="/impressum" className="mail-link">
+                  Impressum
+                </a>
+              </>
+            )}
           </Col>
         </Row>
       </Container>

@@ -15,7 +15,7 @@ function WorkView(props) {
         <ul className="WorkView">
           <Row xs={1} md={2} xxl={3} className="work-view">
             {projects.map((project) => (
-              <Col>
+              <Col key={project.id}>
                 <li>
                   <ProjectView className="project" project={project} />
                 </li>

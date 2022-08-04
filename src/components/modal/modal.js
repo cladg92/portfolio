@@ -21,7 +21,7 @@ function ModalView(props) {
       <Modal.Body>
         <Carousel className="carousel">
           {project.img.map((img) => (
-            <Carousel.Item>
+            <Carousel.Item key={project.id}>
               <img
                 className="d-block w-100 project-image"
                 src={img}
@@ -33,7 +33,7 @@ function ModalView(props) {
         <div className="description">
           <div className="tech">
             {project.tech.map((t) => (
-              <Badge bg="dark" className="tech-item">
+              <Badge key={t} bg="dark" className="tech-item">
                 {t}
               </Badge>
             ))}
