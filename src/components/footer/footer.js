@@ -61,7 +61,7 @@ function Footer() {
               </div>
             </div>
           </Col>
-          {window.location.pathname === "/portfolio" && (
+          {window.location.pathname === "/portfolio/" && (
             <Col className="footer-section">
               <p>Pictures from Unsplash by:</p>
 
@@ -141,7 +141,7 @@ function Footer() {
           <Col>Designed and coded by Clara Di Gregorio</Col>
           <Col>
             All rights reserved
-            {window.location.pathname === "/portfolio" && (
+            {window.location.pathname === "/portfolio/" && (
               <>
                 <span> | </span>
                 <a href="/impressum" className="mail-link">
