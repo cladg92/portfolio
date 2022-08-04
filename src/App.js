@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route
           exact
-          path="/"
+          path="/portfolio"
           element={
             <div className="App">
               <HomeView />

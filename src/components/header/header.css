@@ -2,7 +2,8 @@ nav.header {
   background-color: black;
 }
 
-.menu-item {
+a.menu-item {
+  font-size: 20px;
   text-decoration: none;
   color: #f79669;
   border-radius: 0.5rem;
@@ -13,15 +14,25 @@ nav.header {
   transition-duration: 0.3s;
 }
 
-a.brand.navbar-brand {
-  color: #f79669;
-}
-
 .menu-item:hover {
   background: rgb(129, 110, 110);
   color: antiquewhite;
 }
 
-.header {
-  background-color: #f79669;
+a.brand.navbar-brand {
+  color: #f79669;
+  font-size: 25px;
+}
+
+a.brand.navbar-brand:hover {
+  color: antiquewhite;
+}
+
+@media (max-width: 815px) {
+  a.menu-item {
+    font-size: medium;
+  }
+  a.brand.navbar-brand {
+    font-size: 20px;
+  }
 }
