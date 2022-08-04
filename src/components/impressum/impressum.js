@@ -1,11 +1,9 @@
 import React from "react";
 import "./impressum.css";
 
-import { Container, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
 function Impressum() {
-  const navigate = useNavigate();
   return (
     <Container className="impressum">
       <h1>Impressum</h1>
@@ -27,7 +25,10 @@ function Impressum() {
         <strong>Kontakt:</strong> <br />
         Telefon: 0049-15229395934
         <br />
-        E-Mail: <a href="mailto:cladg92@gmail.com">cladg92@gmail.com</a>
+        E-Mail:{" "}
+        <a className="link" href="mailto:cladg92@gmail.com">
+          cladg92@gmail.com
+        </a>
         <br />
       </p>
       <p>
@@ -108,7 +109,9 @@ function Impressum() {
       </p>
       <br />
       Website Impressum von{" "}
-      <a href="https://www.impressum-generator.de">impressum-generator.de</a>
+      <a className="link" href="https://www.impressum-generator.de">
+        impressum-generator.de
+      </a>
     </Container>
   );
 }
