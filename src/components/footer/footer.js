@@ -61,7 +61,7 @@ function Footer() {
               </div>
             </div>
           </Col>
-          {(window.location.pathname === "/portfolio" || "/portfolio/") && (
+          {window.location.pathname !== "/portfolio/impressum" && (
             <Col className="footer-section">
               <p>Pictures from Unsplash by:</p>
 
