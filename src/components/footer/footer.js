@@ -141,14 +141,14 @@ function Footer() {
           <Col>Designed and coded by Clara Di Gregorio</Col>
           <Col>
             All rights reserved
-            {window.location.pathname !== "/portfolio/impressum" && (
+            {/*window.location.pathname !== "/portfolio/impressum" && (
               <>
                 <span> | </span>
                 <a href="/portfolio/impressum" className="mail-link">
                   Impressum
                 </a>
               </>
-            )}
+            )*/}
           </Col>
         </Row>
       </Container>
