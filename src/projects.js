@@ -38,6 +38,7 @@ const projects = [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Capture2.PNG",
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Capture3.PNG",
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Capture4.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Capture5.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlix1.jpg",
