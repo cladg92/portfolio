@@ -1,5 +1,3 @@
-import video from "./assets/Chatapp_screens/chat-app.mp4";
-
 const projects = [
   {
     id: "4",
@@ -35,9 +33,11 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/myFlix-client"],
     Live_Site: ["https://myflixapp92.netlify.app/"],
     img: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Flix1.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Flix2.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Flix3.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Capture.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Capture1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Capture2.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Capture3.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixclient_screens/Capture4.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlix1.jpg",
