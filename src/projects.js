@@ -55,8 +55,9 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/myFlix-Angular-client"],
     Live_Site: ["https://cladg92.github.io/myFlix-Angular-client/welcome"],
     img: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Angular_screens/angular1.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Angular_screens/angular1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Angular_screens/Capture.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Angular_screens/Capture2.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/Angular_screens/Capture3.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/angular1.jpg",
