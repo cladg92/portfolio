@@ -10,4 +10,4 @@ Check it out live [here](https://cladg92.github.io/portfolio).
 
 ## Technologies
 
-React, React-Bootstrap
+React, React-Bootstrap, AWS Amplify, AWS Simple Email Service (SES)
