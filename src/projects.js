@@ -82,6 +82,35 @@ const projects = [
     tech: ["JavaScript", "Bootstrap", "JQuery"],
   },
   {
+    id: "2",
+    Title: "Meet App",
+    Description: `Web application that uses the Google Calendar API to display upcoming programming events for web developers. 
+    Users can filter events by city, specify the number of visible events, view the details of each event and view a summary of the events using charts.
+    Since the app was built as a progressive web application (PWA), users can also add the app shortcut to the home screen of their device.
+    The app was built with React using a test-driven development (TDD) approach; an authorization server set up on AWS Lambda for issuing OAuth2 
+    tokens allows the app to fetch data from the Google Calendar API.`,
+    Github_Repo: ["https://github.com/cladg92/meet"],
+    Live_Site: ["https://cladg92.github.io/meet/"],
+    img: [
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet_screen/Capture.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet_screen/Capture1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet_screen/Capture2.PNG",
+    ],
+    pic: [
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet1.jpg",
+    ],
+    tech: [
+      "React",
+      "Axios",
+      "AWS Lambda",
+      "OAuth2",
+      "Jest",
+      "Cucumber",
+      "Puppeteer",
+      "Atatus",
+    ],
+  },
+  {
     id: "3",
     Title: "Chat App",
     Description: `Simple chat app for mobile devices that provides users with a chat interface and options to share images and their location. 
@@ -97,35 +126,6 @@ const projects = [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/chat1.jpg",
     ],
     tech: ["React Native", "Expo", "Google Firebase", "Gifted Chat"],
-  },
-
-  {
-    id: "2",
-    Title: "Meet App",
-    Description: `Web application that uses the Google Calendar API to display upcoming programming events for web developers. 
-    Users can filter events by city, specify the number of visible events, view the details of each event and view a summary of the events using charts.
-    Since the app was built as a progressive web application (PWA), users can also add the app shortcut to the home screen of their device.
-    The app was built with React using a test-driven development (TDD) approach; an authorization server set up on AWS Lambda for issuing OAuth2 
-    tokens allows the app to fetch data from the Google Calendar API.`,
-    Github_Repo: ["https://github.com/cladg92/meet"],
-    Live_Site: ["https://cladg92.github.io/meet/"],
-    img: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet_screen/meet1.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet_screen/meet2.PNG",
-    ],
-    pic: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/meet1.jpg",
-    ],
-    tech: [
-      "React",
-      "Axios",
-      "AWS Lambda",
-      "OAuth2",
-      "Jest",
-      "Cucumber",
-      "Puppeteer",
-      "Atatus",
-    ],
   },
 ];
 
