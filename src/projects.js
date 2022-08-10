@@ -8,8 +8,8 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/movie_api"],
     Live_Site: ["https://myflixapi92.herokuapp.com/documentation/#/"],
     img: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixAPI_screen/movieapi1.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixAPI_screen/movieapi2.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixAPI_screen/Capture.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/myFlixAPI_screen/Capture1.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/api1.jpg",
