@@ -10,7 +10,6 @@ function Impressum() {
       <p>Angaben gemäß § 5 TMG</p>
       <p>
         Clara Di Gregorio <br />
-        St. Georgen 13
         <br />
         95448 Bayreuth <br />
       </p>
@@ -22,12 +21,10 @@ function Impressum() {
         <br />
       </p>
       <p>
-        <strong>Kontakt:</strong> <br />
-        Telefon: 0049-15229395934
         <br />
         E-Mail:{" "}
-        <a className="link" href="mailto:cladg92@gmail.com">
-          cladg92@gmail.com
+        <a className="link" href="mailto:digregorioclr@gmail.com">
+          digregorioclr@gmail.com
         </a>
         <br />
       </p>
