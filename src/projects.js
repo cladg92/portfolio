@@ -73,8 +73,8 @@ const projects = [
     Github_Repo: ["https://github.com/cladg92/Pokedex_app"],
     Live_Site: ["https://cladg92.github.io/Pokedex_app/"],
     img: [
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex_screen/poke1.PNG",
-      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex_screen/poke2.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex_screen/pokepo1.PNG",
+      "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex_screen/pokepo2.PNG",
     ],
     pic: [
       "https://raw.githubusercontent.com/cladg92/portfolio/main/src/assets/pokedex1.jpg",
